@@ -3,5 +3,5 @@ services:
     name: teamviewer-session
     env: python
     plan: free
-    buildCommand: ""
+    buildCommand: "buildCommand: "pip install -r requirements.txt""
     startCommand: "python app.py"
